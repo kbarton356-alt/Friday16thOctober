@@ -42,7 +42,7 @@ def load_measurements(path=None, errors=None):
     """
     if errors is None:
         errors = []
-        
+
     if path is None:
         path = sample_data_path()
 
