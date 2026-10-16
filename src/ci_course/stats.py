@@ -40,9 +40,7 @@ def summarise(values):
 
 
 def count_missing(values):
-    """
-    Summarise the number of missing values
-    """
+    """Summarise the number of missing values"""
     values = np.asarray(values, dtype=float)
     return int(np.isnan(values).sum())
 
